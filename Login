@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"><!--son fundamentales pueda categorisar o posicionar en las busquedas-->
+        <title>Login en sistema</title>
+        <meta charset="iso-8559-1"/>
+        <!--da una referencia a la busqueda-->
+ 
+    </head>
+    <body>
+        <header>Loging</header>
+        <form enctype="text/plain" method="POST" action="index.php">
+            Username:<input type="text" name="user" placeholder="user" minlength="10" required=true><br></br>
+             Password:<input type="password" name="direccion" placeholder="Password" minlength="10" required=true><br></br>
+             Correo:<input type="email" name="correo" placeholder="E-mail" minlength="20" required=true><br></br>
+        <button  name="button" >Ingresar</button>
+        </form>
+    </body>
+    <style>
+            header{
+              color: red;
+              font-family: Impact;
+            }
+            body{
+                text-align: center;
+                color: white;
+                background-color: black;
+                 padding: 5px;
+                 font-size: 18px;
+            }
+            button{
+                text-align: center;
+                color: white;
+                background-color: rgb(15, 211, 32);
+                 padding: 5px;
+                 font-size: 18px;
+                 font-family: Impact;
+            }
+    </style>
+</html>
